@@ -30,7 +30,6 @@ public class TemperatureConverter {
             System.out.print("The temperature in celsius is ");
             System.out.println(celsius);
         } else {
-            // Displays when a user inputs any other number other than 1 or 2
             System.out.println("Invalid option, input either 1 or 2");
         }
         scanner.close();
