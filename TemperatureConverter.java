@@ -8,8 +8,8 @@ public class TemperatureConverter {
 
         // Display options
         System.out.println("Select an option(1 or 2):");
-        System.out.println("1. Celsius to Fahrenheit");
-        System.out.println("2. Fahrenheit to Celsius");
+        System.out.println("1. Convert Celsius to Fahrenheit.");
+        System.out.println("2. Convert Fahrenheit to Celsius.");
 
         // Accept user's response
         int userOption = scanner.nextInt();
