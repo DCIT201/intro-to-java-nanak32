@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class TemperatureConverter {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -34,7 +34,7 @@ public class Main {
             // Displays when a user inputs any other number other than 1 or 2
             System.out.println("Invalid option, input either 1 or 2");
         }
-
+        scanner.close();
 
     }
 }
