@@ -19,6 +19,9 @@ public class TemperatureConverter {
             // Converts from Celsius to Fahrenheit
             System.out.println("Enter temperature in celsius: ");
             double celsius = scanner.nextDouble();
+            if (celsius > 100){
+              System.out.println("Temperature too high");
+            }
             double fahrenheit = (celsius * 9/5) + 32;
             System.out.print("The temperature in fahrenheit is ");
             System.out.println(fahrenheit);
@@ -26,6 +29,9 @@ public class TemperatureConverter {
             // Converts from Fahrenheit to Celsius
             System.out.println("Enter temperature in fahrenheit: ");
             double fahrenheit = scanner.nextDouble();
+            if (fahrenheit > 100){
+              System.out.println("Temperature too high");
+            }
             double celsius = (fahrenheit - 32) * 5/9;
             System.out.print("The temperature in celsius is ");
             System.out.println(celsius);
