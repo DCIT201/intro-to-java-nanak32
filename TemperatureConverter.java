@@ -4,8 +4,7 @@ public class TemperatureConverter {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Display Program Title
-        System.out.println("Temperature Converter Program");
+        
 
         // Display options
         System.out.println("Select an option(1 or 2):");
