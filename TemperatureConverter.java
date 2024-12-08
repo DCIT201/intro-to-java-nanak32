@@ -7,7 +7,7 @@ public class TemperatureConverter {
         
 
         // Display options
-        System.out.println("Select an option(1 or 2):");
+        System.out.println("Choose one option");
         System.out.println("1. Convert Celsius to Fahrenheit.");
         System.out.println("2. Convert Fahrenheit to Celsius.");
 
@@ -30,7 +30,7 @@ public class TemperatureConverter {
             System.out.print("The temperature in celsius is ");
             System.out.println(celsius);
         } else {
-            System.out.println("Invalid option, input either 1 or 2");
+            System.out.println("Invalid input");
         }
         scanner.close();
 
